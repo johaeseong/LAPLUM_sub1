@@ -1,0 +1,109 @@
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration:none; color:#000;}
+
+body{font-family:'arial';
+    font-size:17px;
+    line-height: 20px;
+    color:#000;}
+
+
+.header{background:#e1f3e3;
+        width:100%;
+        height:90px;
+        position:relative;}
+
+
+
+/*헤더메뉴 드롭다운 s*/
+
+.nav{padding-left:200px;}
+
+
+.nav>li{margin:0 auto;
+        float:left;
+        position:relative;}
+
+.nav>li>a{display:block; 
+        padding:35px 35px;
+        text-align: center;}
+
+
+
+.sub{width:100%;
+    display:none;
+    position:absolute;
+    top:90px; left:0px;
+    z-index:2;}
+
+.sub li a{display:block;
+            background-color:#2b5f49;
+            color:#fff;
+            text-align:center;
+            /*border-bottom: 1px solid rgb(255, 255, 255);
+            border-top: 1px solid rgba(175, 175, 175, 0.5);*/
+            padding:10px;}
+
+.nav li:hover .sub{display:block;}
+
+.sub li a:hover{background-color:#e1f3e3;
+                color:#2b5f49;} */
+
+/*헤더메뉴 드롭다운 f*/
+
+
+.topheader{position:relative;}
+
+.logo{/*margin:0 auto;*/
+    position:absolute;
+    top:10px; left:50%;
+    margin-left:-33.5px;}
+
+.link{float:right;
+    padding-right:200px;}
+.link li{float:left;
+        padding:35px 20px;}
+    
+/*헤더 끝*/
+
+
+
+
+.lsmain{width:100%;
+        height:965px;
+        background:url(../images/laplumstorymain.jpg) no-repeat center top;}
+
+.lsmain a{display:block;
+            width:100%;}
+
+
+
+.lscon{width:100%;
+        height:2292px;
+        background:url(../images/storycon.jpg) no-repeat center top;
+        margin-top:150px;}
+
+
+
+.showroom{margin-top:370px;
+        padding-left:50%;
+        margin-left:-687.5px;}
+
+
+
+
+
+
+.footer ul{float: left;
+            padding:0 30px;
+            font-size:13px;}
+
+.footer{margin-top:150px;
+        padding-left:35%;
+        height:220px;
+        background-color:#e1f3e3;
+        padding-top:50px;}
+
+.footer2{font-size:13px;
+        text-align:center;
+        padding-right:630px;}
